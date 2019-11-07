@@ -40,7 +40,6 @@ public class DatosEnvoltorios {
         letra = 'a';
         System.out.println("Letra: "+ letra);
         
-        
         Boolean bandera;
         bandera = false;
         System.out.println("Bandera: "+ bandera);
@@ -49,6 +48,6 @@ public class DatosEnvoltorios {
         cadena = "Cadena";
         System.out.println("Cadena:" + cadena);
         
-        /*El tipo de dato char no tine dato envoltorio*/
+        /*El tipo de dato char no tiene dato envoltorio*/
     }
 }
