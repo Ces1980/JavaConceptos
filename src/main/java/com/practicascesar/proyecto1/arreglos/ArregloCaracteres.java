@@ -38,11 +38,13 @@ public class ArregloCaracteres {
         char[] caracteres1 = new char[longitud];
 
         /*
-                
+            Asignamos la longitud a la variable inverso    
          */
         int inverso = longitud;
 
-        /**/
+        /*
+            Creamos un for con el cual invertimos el texto
+        */
         for (int i = 0; i < longitud; i++) {
             caracteres1[i] = texto.charAt(inverso - 1);
             inverso--;
