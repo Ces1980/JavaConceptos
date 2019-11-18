@@ -45,9 +45,11 @@ public class PalindromoArreglo {
         /*Condicion que gracias del estado de la bandera booleana(igual) permite
         *dar a conocer por consola si la palabra ingresada es palindromo*/
         if(igual == false){
-            System.out.println("No es un palindromo");
+            System.out.println(texto + "....No es un palindromo");
+            System.out.println("Texto sin espacios..." + texto.replace(" ", ""));
         }else{
-            System.out.println("Es un palindromo");
+            System.out.println( texto + "....Es un palindromo");
+            System.out.println("Texto sin espacios..." + texto.replace(" ", ""));
         }
     }
 }
