@@ -18,10 +18,11 @@ public class PromedioAlumnoArreglo {
         
         float calificaciones[] = new float [calificacionesAIngresar];
         float suma =0, promedio;
+        int contador = 1;
         
-        for (int i = 1; i < calificacionesAIngresar; i++) {
-            
-            System.out.println(i + ".- Calificación ");
+        for (int i = 0; i < calificacionesAIngresar; i++) {
+            System.out.println("\t\nSolicitando calificacion..." +contador);
+            System.out.print("\n"+contador + ".- Calificación \n");
             calificaciones[i] = entrada.nextFloat();
             suma = suma + calificaciones[i];
             
